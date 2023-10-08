@@ -1,4 +1,4 @@
-//1. Penggunaan 'if', 'if else', 'nested if' variabel usia pengunjung
+//1. Penggunaan 'if', 'if else', 'nested if' 
 
 let usiaPengunjung = 15; 
 
@@ -11,7 +11,7 @@ if (usiaPengunjung >= usiaMinimum) {
 }
 
 
-// 2. Penggunaan 'switch case' dengan variabel kodeProduk
+// 2. Penggunaan 'switch case' 
 
 let kodeProduk = "A01";
 
@@ -33,7 +33,7 @@ switch (kodeProduk.charAt(0)) {
 
 console.log(`Kode produk ${kodeProduk} termasuk dalam kategori ${kategoriProduk}.`);
 
-//3. Penggunaan 'for statement' dengan variabel
+//3. Penggunaan 'for statement' 
 
 let nama = "Beta";
 
@@ -41,7 +41,7 @@ for (let i = 0; i < 3; i++) {
     console.log("Selamat datang, " + nama + "! Semangat mengerjakan menulis kode!");
 }
 
-//4. Penggunaan 'while' dengan variabel tugasSaatIni
+//4. Penggunaan 'while' 
 
 let totalTugas = 5;
 let tugasSaatIni = 1;
@@ -51,7 +51,21 @@ while (tugasSaatIni <= totalTugas) {
     tugasSaatIni++;
 }
 
-//5. Penggunaan 'do while' dengan variabel
+//5. Penggunaan 'do while'
 
+let mainan = "Lego";
+let count = 0;
 
-//6. Penggunaan 'function' dengan variabel
+do {
+  console.log("Saya memiliki " + mainan + " di rumah.");
+  count++;
+} while (count < 5);
+
+//6. Penggunaan 'function'
+
+function tampilkanJurusan(namaJurusan) {
+    console.log("Saya Beta dengan Jurusan " + namaJurusan + ".");
+}
+  
+let namaJurusan = "Teknik Informatika";
+tampilkanJurusan(namaJurusan);
